@@ -1,0 +1,41 @@
+<html lang="es">
+<head>
+<title>Boletin F3 HTML(2)</title>
+</head>
+<body>
+ <form action="mailto: yago@castelao.com" method="post" enctype="text/plain">
+   <label> Nome e Apelidos: <input type="text" size="30" maxlength="70"></label>
+   <br><br>
+   <label> Correo: <input type="email" size="30"></label>
+   <br><br>
+   <label>Xénero de Videoxogo Favorito: <input list="Xeneros"></label>
+   <datalist id="Xeneros">
+     <option value="Acción"></option>
+     <option value="Aventura"></option>
+     <option value="RPG"></option>
+     <option value="Estratexia"></option>
+     <option value="Deportes"></option>
+     <option value="Terror"></option>
+   </datalist>
+   <br><br>
+   <label> Frecuencia de envío: <input type="radio" name="Frecuencia" value="Diaria" checked> Diaria <input type="radio" name="Frecuencia" value="Semanal"> Semanal <input type="radio" name="Frecuencia" value="Mensual"> Mensual</label>
+   <br><br>
+   <label> Orzamento máximo (en €):<input type="range" list="tickmarks"></label>
+   <datalist id="tickmarks">
+     <option value="10"></option>
+     <option value="20"></option>
+     <option value="30"></option>
+     <option value="40"></option>
+     <option value="50"></option>
+     <option value="60"></option>
+     <option value="70"></option>
+     <option value="80"></option>
+     <option value="90"></option>
+     <option value="100"></option>
+   </datalist>
+   <br><br>
+   <label> Acepta a Política de Privacidade? <input type="checkbox" name="Privacidade" value="si" required></label>
+   <br><br>
+   <input type="submit" value="Suscribirse"> <input type="reset" value="Restablecer">
+ </form>
+</body>

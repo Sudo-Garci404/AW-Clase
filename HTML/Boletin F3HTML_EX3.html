@@ -1,0 +1,35 @@
+<html lang="es">
+<head>
+<title>Boletin F3 HTML(3)</title>
+</head>
+<body>
+ <form action="mailto: yago@castelao.com" method="post" enctype="text/plain">
+   <label> Nombre del jugador: <input type="text" size="30"></label>
+   <br><br>
+   <label> Contrasinal: <input type="password" required pattern="[a-zA-Z0-9]{8,15}"></label>
+   <br><br>
+   <label> Data de Inicio do Torneo: <input type="date"></label>
+   <br><br>
+   <label> Hora de Contacto Preferida: <input type="time"></label>
+   <br>
+   <p> Clases de Personaxes Dominados:</p>
+   <select multiple>
+     <option> Guerreiro</option>
+     <option> Mago</option>
+     <option> Arqueiro</option>
+     <option> Pícaro</option>
+     <option> clérigo</option>
+     <option> Bárbaro</option>
+   </select><label> (Pulsar a tecla Ctrl para marcar varias opcións)</label>
+   <br><br>
+   <label> Nivel de Experiencia: <select></label>
+     <option> Intermedio</option>
+     <option> Principiante</option>
+     <option> Avanzado</option>
+   </select>
+   <br><br>
+   <label> Cor do Escudo: <input type="color"></label>
+   <br><br>
+   <input type="submit" value="Inscribirse"> <input type="reset" value="Limpiar">
+ </form>
+</body>
