@@ -1,0 +1,20 @@
+#titulo-principal {
+ color: green;
+ text-align: center;
+}
+
+
+.destacado {
+ font-style: italic;
+ color: orange;
+}
+
+
+.contedor {
+ border: 2px solid black;
+}
+
+
+li.importante {
+ background-color: yellow;
+}

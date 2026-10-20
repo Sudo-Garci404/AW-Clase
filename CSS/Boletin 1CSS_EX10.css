@@ -1,0 +1,16 @@
+.contedor {
+ width: 600;
+ background-color: lightgray;
+}
+
+
+.fixa {
+ width: 200px;
+ background-color: lightblue;
+}
+
+
+.proporcional {
+ width: 50%;
+ background-color: lightgreen;
+}
